@@ -1,7 +1,7 @@
 #!/bin/bash
 
-mvn wildfly:start &&
+./mvnw wildfly:start &&
 
-mvn package &&
+./mvnw package &&
 
-mvn wildfly:deploy
+./mvnw wildfly:deploy
